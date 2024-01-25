@@ -31,6 +31,7 @@ final class PokedexStartViewController: UIViewController {
             start.heightAnchor.constraint(equalTo: start.widthAnchor, multiplier: 0.4)
         ])
         start.backgroundColor = .yellow
+        start.layer.cornerRadius = 8
         start.setTitleColor(.darkGray, for: .normal)
         setupButton()
     }
