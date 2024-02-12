@@ -14,16 +14,22 @@ class MyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func UITestButtonAction(_ sender: Any) {
-        print("--> Action")
+        print("--> Control Action")
     }
     
     @IBAction func handleTapAction(_ sender: Any) {
         compute()
     }
 
+    @IBAction func handleTapActionProperly(_ sender: Any) {
+        DispatchQueue.global(qos: .userInitiated).async { [unowned self] in
+            self.compute()
+        }
+    }
+
     private func compute() {
         var counter = 0
-        for _ in 0...10_000_000 {
+        for _ in 0...20_000_000 {
             counter += 1
         }
     }
