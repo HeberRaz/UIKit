@@ -13,6 +13,7 @@
 		A1CCE34D2B7A833D00C6F23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CCE34B2B7A833D00C6F23D /* Main.storyboard */; };
 		A1CCE34F2B7A833F00C6F23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CCE34E2B7A833F00C6F23D /* Assets.xcassets */; };
 		A1CCE3522B7A833F00C6F23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CCE3502B7A833F00C6F23D /* LaunchScreen.storyboard */; };
+		A1CCE35E2B7AEB1000C6F23D /* ConcurrentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCE35D2B7AEB1000C6F23D /* ConcurrentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A1CCE34E2B7A833F00C6F23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1CCE3512B7A833F00C6F23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1CCE3532B7A833F00C6F23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1CCE35D2B7AEB1000C6F23D /* ConcurrentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A1CCE3452B7A833D00C6F23D /* AppDelegate.swift */,
 				A1CCE3472B7A833D00C6F23D /* SceneDelegate.swift */,
+				A1CCE35D2B7AEB1000C6F23D /* ConcurrentController.swift */,
 				A1CCE3492B7A833D00C6F23D /* MyViewController.swift */,
 				A1CCE34B2B7A833D00C6F23D /* Main.storyboard */,
 				A1CCE34E2B7A833F00C6F23D /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CCE35E2B7AEB1000C6F23D /* ConcurrentController.swift in Sources */,
 				A1CCE34A2B7A833D00C6F23D /* MyViewController.swift in Sources */,
 				A1CCE3462B7A833D00C6F23D /* AppDelegate.swift in Sources */,
 				A1CCE3482B7A833D00C6F23D /* SceneDelegate.swift in Sources */,

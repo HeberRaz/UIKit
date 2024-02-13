@@ -27,6 +27,10 @@ class MyViewController: UIViewController {
         }
     }
 
+    @IBAction func presentConcurrentController(_ sender: Any) {
+        navigationController?.pushViewController(ConcurrentController(), animated: true)
+    }
+    
     private func compute() {
         var counter = 0
         for _ in 0...20_000_000 {
